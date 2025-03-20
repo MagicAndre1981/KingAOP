@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFrameworks>net6.0;net8.0;net9.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net6.0;net8.0;net9.0</TargetFrameworks>
     <PackageId>FjordBob.KingAOP</PackageId>
     <Authors>Fjord Bob</Authors>
     <Owners>fjordBob</Owners>
@@ -25,6 +25,10 @@
   
   <ItemGroup>
     <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.2.25" PrivateAssets="All"/>
+  </ItemGroup>
+  
+  <ItemGroup Condition="$(TargetFramework.Contains('netstandard'))">
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
 
   <ItemGroup>
