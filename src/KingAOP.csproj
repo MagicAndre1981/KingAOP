@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFrameworks>netstandard2.0;net6.0;net8.0;net9.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net6.0;net8.0;net9.0;net10.0</TargetFrameworks>
     <PackageId>FjordBob.KingAOP</PackageId>
     <Authors>Fjord Bob</Authors>
     <Owners>fjordBob</Owners>
@@ -14,7 +14,7 @@
     <RepositoryUrl>https://github.com/fjordBob/KingAOP</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/fjordBob/KingAOP</PackageProjectUrl>
-    <PackageReleaseNotes>A modern dotnet ready fork of the KingAOP lib. Added .net 8 and .net 9 support</PackageReleaseNotes>
+    <PackageReleaseNotes>A modern dotnet ready fork of the KingAOP lib. Added .net 8, .net 9 and .net10 support</PackageReleaseNotes>
     <Product>KingAOP (modern dotnet ready)</Product>
     <Company />
     <PackageLicenseFile>licence.txt</PackageLicenseFile>
